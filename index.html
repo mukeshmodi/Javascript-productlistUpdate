@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+	</head>
+	<body>
+	<div>
+	<button onclick="handlers.displayProducts()">Products</button>
+	
+	<button onclick="handlers.selectAll()">Select All</button>
+	
+	</div>
+
+	
+	
+	
+	<div class="row">
+	<h2 style="margin-left:30px">Add new Product</h2>
+	
+	<input id="inputIMG" type="file"  class="col-lg-4" style="width:300px; margin-right:30px; margin-left:30px ">
+	
+	<input id="inputProductName" type="text" placeholder="Add Item" class="form-control   col-lg-4" style="width:300px; margin-right:30px; margin-left:30px">
+	
+	<input id="inputProductPrice" type="text" class="form-control col-lg-4" placeholder="Price" style="width:300px; margin-right:30px; margin-left:30px">
+	<button class="btn btn-default" onclick="handlers.addProduct()" style="margin-left:30px">ADD</button>
+	</div>
+	
+	
+	<div>
+	<h2 style="margin-left:30px">Edit Product </h2>
+		<input id="changeImg"  class=" col-lg-2" type="file">
+		<input id="changePosition" placeholder="product Number" class="form-control col-lg-2" type="number" style="width:200px; margin-right:30px; margin-left:30px">
+		
+		<input id="changeName" placeholder="Edit Name" class="form-control col-lg-2" type="text" style="width:270px; margin-right:30px; margin-left:30px">
+		<input id="changePrice" placeholder="Edit Price" class="form-control col-lg-2" type="text" style="width:200px; margin-right:30px; margin-left:30px">
+		
+			<button class="btn btn-default" onclick="handlers.editProduct()">Change</button>
+	</div>
+	
+	<ul class="media-list">
+	</ul>
+	<script src="script.js"></script>
+	</body>
+</html>
+
+
