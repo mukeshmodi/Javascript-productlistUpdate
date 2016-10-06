@@ -1,6 +1,6 @@
 # Javascript-productlistUpdate
 adding Deleting and updating product list using javascript
-***This is a Javascript Projcet to add products Daynamicly in a List****
+***This is a Javascript Project to add products Dynamically in a List****
 
 To Test working Module:
 
@@ -13,13 +13,12 @@ image part will not work due to Browser security issues."
 
 
 3. Edit product :to edit any product enter the Number of product and 
-	other details you want to edit.
+	other details you want to edit.(No starts from 0)
 
-4. delete:there is a delete button in each prodct you can delete.
+4. delete:there is a delete button in each product you can delete.
 
 
 
 **working on module to improve UI and adding select Button
 and sorting module Upload soon***
 Thank You 
-
